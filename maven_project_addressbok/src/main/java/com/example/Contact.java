@@ -16,19 +16,19 @@ public class Contact {
 
     public static Contact createContact() {
         Scanner sc = new Scanner(System.in);
-        System.out.println("Enter the First Name");
+        System.out.print("Enter the First Name");
         String firstName = sc.nextLine();
-        System.out.println("Enter the Last Name");
+        System.out.print("Enter the Last Name");
         String lastName = sc.nextLine();
-        System.out.println("Enter the City");
+        System.out.print("Enter the City");
         String city = sc.nextLine();
-        System.out.println("Enter the State");
+        System.out.print("Enter the State");
         String state = sc.nextLine();
-        System.out.println("Enter the zip code");
+        System.out.print("Enter the zip code");
         String zip = sc.nextLine();
-        System.out.println("Enter the Phone Number");
+        System.out.print("Enter the Phone Number");
         String phoneNumber = sc.nextLine();
-        System.out.println("Enter the Email");
+        System.out.print("Enter the Email");
         String email = sc.nextLine();
         sc.close();
 
